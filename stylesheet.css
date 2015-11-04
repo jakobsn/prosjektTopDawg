@@ -3,10 +3,8 @@ button{
 	font-size: 20px;
 	font-family: 'Montserrat',sans-serif;
 }
-img{
-	margin-bottom: -10px;
-	margin-left: 50px;
-
+#logo{
+	margin-bottom: -20px;
 }
 body{
 	
@@ -30,13 +28,13 @@ p{
 	font-family: 'Arapey', serif;
 }
 #alt{
-	width: 900px;
+	width: 800px;
 	margin: auto;
 }
 #hovedinnhold{
 	margin: auto;
 	width: 600px;
-	background-color: #FFFFFF;
+	background-color: #F3F3F3;
 	padding-bottom: 35px;
 	padding-top: 25px;
 
@@ -55,20 +53,16 @@ footer{
 	font-family: 'Arapey', serif;
 }
 #dropdownnav{
-	width: 145px;
+	width: 100px;
 	height: 300px;
-	border-style: solid;
-	border-color: red;
 	position: absolute;
-	margin-top: 2px;
+	top:264px;
 }
 #morroknappdiv{
-	width: 100px;
-	height: 100px;
-	top: 50px;
-	margin-left: 200px;
-	border-style: solid;
-	border-color: red;
+	width: 90px;
+	height: 90px;
+	top: 5px;
+	margin-left: 130px;
 	position: absolute;
 }
 #bonusknappdiv{
@@ -82,4 +76,19 @@ footer{
 }
 CSS selector {
   font-family: 'Montserrat', sans-serif;
+}
+.knapper{
+	background-color: #BABABA;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-family: 'Montserrat',sans-serif;
+	color: #1D1D1D;
+}
+#navi{
+	text-decoration: none;
+}
+.knapper:hover{
+	background-color: #F3F3F3;
+	cursor: pointer;
 }
