@@ -92,3 +92,18 @@ CSS selector {
 	background-color: #F3F3F3;
 	cursor: pointer;
 }
+iframe{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#prev,#next{
+	width: 130px;
+	font-family: 'Montserrat',sans-serif;
+}
+#prev{
+	margin-left: 100px;
+	position: absolute;
+}
+#next{
+	margin-left: 400px;
+}
