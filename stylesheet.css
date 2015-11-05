@@ -101,7 +101,16 @@ iframe{
 #prev{
 	margin-left: 100px;
 	position: absolute;
+	text-decoration: underline;
 }
 #next{
 	margin-left: 400px;
+}
+.kontakt{
+	margin-bottom: 40px;
+}
+.profil{
+	position: absolute;
+	margin-left: 400px;
+	
 }
