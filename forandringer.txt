@@ -4,4 +4,6 @@
 
 - I kontakt.html ble det trangt å ha alle ved siden hverandre, bytter til under hverandre
 
-- top-dawgs videoene skal ikk være i en mappe, men blir hentet fra youtube.com
+- top-dawgs videoene skal ikke være i en mappe, men blir hentet fra youtube.com
+
+- Lager bare en script fil
