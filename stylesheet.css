@@ -7,7 +7,7 @@ button{
 	margin-bottom: -20px;
 }
 body{
-	
+
 	background-color: #8C8C8C;
 }
 h1{
@@ -83,8 +83,24 @@ CSS selector {
 	font-family: 'Montserrat',sans-serif;
 	color: #1D1D1D;
 }
+.dropdown-knapper{
+	background-color: #DADADA;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-family: 'Montserrat',sans-serif;
+	color: #1D1D1D;
+}
+.dropdownnav > ul{
+	list-style: none;
+}
+
 #navi{
 	text-decoration: none;
+}
+.dropdown-knapper:hover{
+	background-color: #F3F3F3;
+	cursor: pointer;
 }
 .knapper:hover{
 	background-color: #F3F3F3;
@@ -112,5 +128,5 @@ iframe{
 .profil{
 	position: absolute;
 	margin-left: 400px;
-	
+
 }
