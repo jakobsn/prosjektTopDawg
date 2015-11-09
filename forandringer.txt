@@ -7,3 +7,5 @@
 - top-dawgs videoene skal ikke være i en mappe, men blir hentet fra youtube.com
 
 - Lager bare en script fil
+
+- top dawgs html filer får egen mappe

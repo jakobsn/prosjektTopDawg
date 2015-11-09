@@ -56,7 +56,7 @@ footer{
 	width: 100px;
 	height: 300px;
 	position: absolute;
-	top:264px;
+	top:265px;
 }
 #morroknappdiv{
 	width: 90px;
@@ -113,4 +113,9 @@ iframe{
 	position: absolute;
 	margin-left: 400px;
 	
+}
+#moti{
+	margin-left: 170px;
+	width:250px; 
+	height:auto;
 }
