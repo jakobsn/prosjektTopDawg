@@ -7,22 +7,27 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<script type="text/javascript" src="scripts/dropdown.js"></script>
-	<script type="text/javascript" src="scripts/morroknapp.js"></script>
-	<script type="text/javascript" src="scripts/bonusknapp.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+
 </head>
 
 <body>
 	<div id="alt">
 	<img src="bilder/logo.png" id="logo" alt="logo"/>
-	<div id="morroknappdiv"><h3></h3></div>
-	<div id="bonusknappdiv"><h3></h3>
+	<div id="morroknappdiv"><br></div>
+	<div id="bonusknappdiv"><br>
 		<img src="bilder/bonusknapp.png" alt="bonus">
 	</div>
 
-	<nav id="dropdownnav"><h3></h3>
+	<nav id="dropdownnav"><br>
 		<div id="hjem" class="knapper" onclick="linkDiv('index.html')">Hjem</div><br>
-		<div id="topDawgs" class="knapper" onclick="linkDiv('top_dawgs_x.html')">Top Dawgs</div><br>
+    <div id="dropdown" class="knapper" onclick="showMenu()">Top Dawgs</div>
+    <ul id="dropdown-menu" style="display:none;">
+      <div id="hjem" class="dropdown-knapper" onclick="linkDiv('top_dawgs/top_dawg_1.html')">Hjem</div>
+			<div id="hjem" class="dropdown-knapper" onclick="linkDiv('top_dawgs/top_dawg_2.html')">Hjem</div>
+			<div id="hjem" class="dropdown-knapper" onclick="linkDiv('top_dawgs/top_dawg_3.html')">Hjem</div>
+			<div id="hjem" class="dropdown-knapper" onclick="linkDiv('top_dawgs/top_dawg_4.html')">Hjem</div>
+    </ul><br>
 		<div id="bilder" class="knapper" onclick="linkDiv('fotogalleri.html')">Bilder</div><br>
 		<div id="motivasjon" class="knapper" onclick="linkDiv('motivation.html')">Motivasjon</div><br>
 		<div id="kontakt" class="knapper" onclick="linkDiv('kontakt.html')">Kontakt</div>
