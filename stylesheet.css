@@ -71,6 +71,7 @@ footer{
 	width: 100px;
 	height: 100px;
 	position: absolute;
+	z-index: 99;
 }
 CSS selector {
   font-family: 'Montserrat', sans-serif;

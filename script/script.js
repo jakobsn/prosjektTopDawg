@@ -39,3 +39,26 @@ function morro(){
   degrees++;
   degrees++;
 }
+scl = 1;
+function bonus(){
+  var elem = document.getElementById("bonusknappdiv");
+  if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "scale("+scl+")";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "scale("+scl+")";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "scale("+scl+")";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "scale("+scl+")";
+	} else {
+		elem.style.transform = "scale("+scl+")";
+	}
+  if(scl > 100){
+		scl = 1;
+    linkDiv('bonus.html')
+	}
+  else{
+    looper = setTimeout(bonus,1);
+  }
+  scl = scl + 0.2;
+}
