@@ -15,3 +15,14 @@ function showMenu(){
     droppedDown = true;
   }
 }
+
+function fram(){
+
+}
+function tilbake(){
+  var source = document.getElementById("foto").src;
+  
+}
+function change(link){
+  document.getElementById("foto").src=link
+}

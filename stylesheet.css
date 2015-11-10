@@ -133,6 +133,7 @@ iframe{
 	height:auto;
 }
 #foto{
+	width: 550px;
 	max-width: 550px;
 	height: auto;
 	margin-left: 25px;
@@ -141,9 +142,21 @@ iframe{
 	max-width: 95px;
 	height: auto;
 	padding: 5px;
+	cursor: pointer;
 }
 #galleri{
 	max-width: 550px;
 	height: auto;
 	margin-left: 25px;
+}
+#fram,#tilbake{
+	max-width: 40px;
+	height: auto;
+}
+#fram{
+	padding-left: 450px;
+}
+#tilbake{
+	padding-left: 100px;
+	position: absolute;
 }
