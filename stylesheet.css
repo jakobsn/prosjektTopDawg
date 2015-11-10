@@ -61,7 +61,8 @@ footer{
 	width: 90px;
 	height: 90px;
 	top: 5px;
-	margin-left: 130px;
+	margin-left: 134px;
+	margin-top: 2px;
 	position: absolute;
 }
 #bonusknappdiv{
@@ -70,6 +71,7 @@ footer{
 	width: 100px;
 	height: 100px;
 	position: absolute;
+	z-index: 99;
 }
 CSS selector {
   font-family: 'Montserrat', sans-serif;
@@ -129,7 +131,7 @@ iframe{
 }
 #moti{
 	margin-left: 170px;
-	width:250px; 
+	width:250px;
 	height:auto;
 }
 #foto{
@@ -149,6 +151,7 @@ iframe{
 	height: auto;
 	margin-left: 25px;
 }
+
 #fram,#tilbake{
 	max-width: 40px;
 	height: auto;
