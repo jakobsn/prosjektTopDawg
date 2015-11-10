@@ -61,7 +61,8 @@ footer{
 	width: 90px;
 	height: 90px;
 	top: 5px;
-	margin-left: 130px;
+	margin-left: 134px;
+	margin-top: 2px;
 	position: absolute;
 }
 #bonusknappdiv{
@@ -129,7 +130,7 @@ iframe{
 }
 #moti{
 	margin-left: 170px;
-	width:250px; 
+	width:250px;
 	height:auto;
 }
 #foto{
