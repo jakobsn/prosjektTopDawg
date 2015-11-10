@@ -8,24 +8,32 @@
 	<link href='https://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../stylesheet.css">
 	<script type="text/javascript" src="../script/script.js"></script>
+
 </head>
 
 <body>
 	<div id="alt">
 	<img src="../bilder/logo.png" id="logo" alt="logo"/>
-	<div id="morroknappdiv"><br></div>
-	<div id="bonusknappdiv"><br>
+	<div id="morroknappdiv" onclick="morro()"><br></div>
+	<div id="bonusknappdiv" onclick="bonus()"><br>
 		<img src="../bilder/bonusknapp.png" alt="bonus">
 	</div>
 
 	<nav id="dropdownnav"><br>
-		<div id="hjem" class="knapper" onclick="linkDiv('index.html')">Hjem</div><br>
-		<div id="topDawgs" class="knapper" onclick="linkDiv('top_dawgs_x.html')">Top Dawgs</div><br>
-		<div id="bilder" class="knapper" onclick="linkDiv('fotogalleri.html')">Bilder</div><br>
-		<div id="motivasjon" class="knapper" onclick="linkDiv('motivation.html')">Motivasjon</div><br>
-		<div id="kontakt" class="knapper" onclick="linkDiv('kontakt.html')">Kontakt</div>
+		<div id="hjem" class="knapper" onclick="linkDiv('../index.html')">Hjem</div><br>
+   		<div id="dropdown" class="knapper" onclick="showMenu()">Top Dawgs</div>
+    	<ul id="dropdown-menu" style="display:none;">
+      		<div id="Hop Sing" class="dropdown-knapper" onclick="linkDiv('top_dawg_0.html')">Hop Sing</div>
+			<div id="Andersen" class="dropdown-knapper" onclick="linkDiv('top_dawg_1.html')">Andersen</div>
+			<div id="BaliSick" class="dropdown-knapper" onclick="linkDiv('top_dawg_2.html')">BaliSick</div>
+			<div id="FunilaSM64" class="dropdown-knapper" onclick="linkDiv('top_dawg_3.html')">FunilaSM64</div>
+			<div id="Syros" class="dropdown-knapper" onclick="linkDiv('top_dawg_4.html')">Syros</div>
+			<div id="Dunkel" class="dropdown-knapper" onclick="linkDiv('top_dawg_5.html')">Dunkel</div>
+    	</ul><br>
+		<div id="bilder" class="knapper" onclick="linkDiv('../fotogalleri.html')">Bilder</div><br>
+		<div id="motivasjon" class="knapper" onclick="linkDiv('../motivation.html')">Motivasjon</div><br>
+		<div id="kontakt" class="knapper" onclick="linkDiv('../kontakt.html')">Kontakt</div>
 	</nav>
-
  		<div id="hovedinnhold">
 			<h1>FunilaSM64</h1>
 			<div id="mediaplayer">
