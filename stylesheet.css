@@ -37,7 +37,6 @@ p{
 	background-color: #F3F3F3;
 	padding-bottom: 35px;
 	padding-top: 25px;
-
 	border-bottom-style: solid;
 	border-left-style: solid;
 	border-right-style: solid;
@@ -94,7 +93,6 @@ CSS selector {
 .dropdownnav > ul{
 	list-style: none;
 }
-
 #navi{
 	text-decoration: none;
 }
@@ -128,10 +126,24 @@ iframe{
 .profil{
 	position: absolute;
 	margin-left: 400px;
-	
 }
 #moti{
 	margin-left: 170px;
 	width:250px; 
 	height:auto;
+}
+#foto{
+	max-width: 550px;
+	height: auto;
+	margin-left: 25px;
+}
+.bilder{
+	max-width: 95px;
+	height: auto;
+	padding: 5px;
+}
+#galleri{
+	max-width: 550px;
+	height: auto;
+	margin-left: 25px;
 }
