@@ -16,16 +16,11 @@ function showMenu(){
   }
 }
 
-
-function fram(){
-
-}
-function tilbake(){
-  var source = document.getElementById("foto").src;
-  
-}
-function change(link){
-  document.getElementById("foto").src=link
+var currentpic=0;
+function change(index){
+  currentpic=index;
+  var link = "bilder/scrn_"+currentpic+".png"
+  document.getElementById("foto").src=link;
 }
 
 var looper;
@@ -74,4 +69,29 @@ function bonus(){
     looper = setTimeout(bonus,1);
   }
   scl = scl + 0.2;
+}
+
+
+function framme(){
+  if(currentpic==16){
+    document.getElementById("foto").src="bilder/scrn_0.png";
+    currentpic=0;
+  }
+  else{
+    currentpic++;
+    var link = "bilder/scrn_"+currentpic+".png"
+    document.getElementById("foto").src=link;
+  }
+}
+function bake(){
+  console.log(currentpic);
+  if(currentpic==0){
+    document.getElementById("foto").src="bilder/scrn_16.png";
+    currentpic=16;
+  }
+  else{
+    currentpic--;
+    var link = "bilder/scrn_"+currentpic+".png"
+    document.getElementById("foto").src=link;
+  }
 }
