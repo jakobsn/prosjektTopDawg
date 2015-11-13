@@ -11,3 +11,5 @@
 - top dawgs html filer får egen mappe
 
 - egen mappe for knapper
+
+- mappe "other"
