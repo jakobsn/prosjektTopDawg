@@ -1,9 +1,11 @@
 function linkDiv(link){
+  //Function for navigation, mainly used in the drop-down menu
   window.location.href = link;
 }
 var droppedDown = false;
 
 function showMenu(){
+  //Function for dropdow-menu
   if (droppedDown){
     document.getElementById("dropdown-menu").style.display="none";
     droppedDown = false;
@@ -18,6 +20,7 @@ function showMenu(){
 
 var currentpic=0;
 function change(index){
+  //changes picture in gallery when you click on the small pictures
   currentpic=index;
   var link = "bilder/scrn_"+currentpic+".png"
   document.getElementById("foto").src=link;
@@ -26,6 +29,7 @@ function change(index){
 var looper;
 var degrees = 0;
 function morro(){
+  //Makes Stians head rotate 360 degrees;
   var elem = document.getElementById("morroknappdiv");
   if(navigator.userAgent.match("Chrome")){
 		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
@@ -49,6 +53,7 @@ function morro(){
 }
 scl = 1;
 function bonus(){
+  //Starts when "bonus" button is klicked, animates a transition to the bonus site.
   var elem = document.getElementById("bonusknappdiv");
   if(navigator.userAgent.match("Chrome")){
 		elem.style.WebkitTransform = "scale("+scl+")";
@@ -73,6 +78,7 @@ function bonus(){
 
 
 function framme(){
+  //Navigates forward in picture-gallery
   if(currentpic==16){
     document.getElementById("foto").src="bilder/scrn_0.png";
     currentpic=0;
@@ -84,6 +90,7 @@ function framme(){
   }
 }
 function bake(){
+  //Navigates backward in picture-gallery
   console.log(currentpic);
   if(currentpic==0){
     document.getElementById("foto").src="bilder/scrn_16.png";

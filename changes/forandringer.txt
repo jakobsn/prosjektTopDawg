@@ -9,5 +9,3 @@
 - Lager bare en script fil
 
 - top dawgs html filer får egen mappe
-
-- egen mappe for knapper

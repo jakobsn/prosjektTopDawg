@@ -1,13 +1,8 @@
-button{
-	background-color: #BABABA;
-	font-size: 20px;
-	font-family: 'Montserrat',sans-serif;
-}
 #logo{
 	margin-bottom: -20px;
 }
 body{
-
+	/*Main background color for the page*/
 	background-color: #8C8C8C;
 }
 h1{
@@ -28,10 +23,12 @@ p{
 	font-family: 'Arapey', serif;
 }
 #alt{
+	/*all page content is inside this tag*/
 	width: 800px;
 	margin: auto;
 }
 #hovedinnhold{
+	/*Defines the style for the main content (the gray border and everything inside)*/
 	margin: auto;
 	width: 600px;
 	background-color: #F3F3F3;
@@ -52,12 +49,14 @@ footer{
 	font-family: 'Arapey', serif;
 }
 #dropdownnav{
+	/*Position and size for drop-down menu*/
 	width: 100px;
 	height: 300px;
 	position: absolute;
-	top:265px;
+	top:264px;
 }
 #morroknappdiv{
+	/*Position and size for "easter-egg" function that makes Stians head spin*/
 	width: 90px;
 	height: 90px;
 	top: 5px;
@@ -66,6 +65,7 @@ footer{
 	position: absolute;
 }
 #bonusknappdiv{
+	/*Style for bonus button*/
 	top: 0px;
 	margin-left: 620px;
 	width: 100px;
@@ -74,9 +74,11 @@ footer{
 	z-index: 99;
 }
 CSS selector {
-  font-family: 'Montserrat', sans-serif;
+	/*Imported font*/
+	font-family: 'Montserrat', sans-serif;
 }
 .knapper{
+	/*Style for buttons in menu*/
 	background-color: #BABABA;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -85,6 +87,7 @@ CSS selector {
 	color: #1D1D1D;
 }
 .dropdown-knapper{
+	/*Style for buttins in drop-down menu*/
 	background-color: #DADADA;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -92,25 +95,22 @@ CSS selector {
 	font-family: 'Montserrat',sans-serif;
 	color: #1D1D1D;
 }
-.dropdownnav > ul{
-	list-style: none;
-}
 #navi{
+	/*Removes default underline from our meny*/
 	text-decoration: none;
 }
-.dropdown-knapper:hover{
-	background-color: #F3F3F3;
-	cursor: pointer;
-}
-.knapper:hover{
+.dropdown-knapper:hover, .knapper:hover{
+	/*changes button color and pointer on hover*/
 	background-color: #F3F3F3;
 	cursor: pointer;
 }
 iframe{
+	/*Frame for youtube-videos*/
 	margin-left: 30px;
 	margin-right: 30px;
 }
 #prev,#next{
+	/*Navigation links in top_dawg_x.html sites*/
 	width: 130px;
 	font-family: 'Montserrat',sans-serif;
 }
@@ -126,33 +126,39 @@ iframe{
 	margin-bottom: 40px;
 }
 .profil{
+	/*Position for pictures in contact.html*/
 	position: absolute;
 	margin-left: 400px;
 }
 #moti{
+	/*Picture position in motivation.html*/
 	margin-left: 170px;
 	width:250px;
 	height:auto;
 }
 #foto{
+	/*Style for the big picture in fotogalleri.html*/
 	width: 550px;
 	max-width: 550px;
 	height: auto;
 	margin-left: 25px;
 }
 .bilder{
+	/*Style for small pictures in fotogalleri.html*/
 	max-width: 95px;
 	height: auto;
 	padding: 5px;
 	cursor: pointer;
 }
 #galleri{
+	/*Style for the div containing all the small pictures in fotogalleri.html*/
 	max-width: 550px;
 	height: auto;
 	margin-left: 25px;
 }
 
 #fram,#tilbake{
+	/*Button style in fotogalleri.html*/
 	max-width: 40px;
 	height: auto;
 }
