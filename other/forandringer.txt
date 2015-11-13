@@ -13,3 +13,5 @@
 - egen mappe for knapper
 
 - mappe "other"
+
+- større footer

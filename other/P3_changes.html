@@ -16,11 +16,110 @@
 		
 	<section>
 		<h3>2. Administrative Detaljer</h3>
-		<p>Navn på hjemmesiden: Top Dawgs<br>
-		Klikk <a href="../index.html">her</a> for å navigere til Top Dawgs hjemmesiden</p>
+		<p>Navn på nettsiden: Top Dawgs<br>
+		Klikk <a href="../index.html">her</a> for å navigere til Top Dawgs nettsiden<br>Navn på klienten: Stian Sandø</p>
 	</section>
-		
-	</div>
+	<section>
+		<h3>3. Forandringer i vårt design</h3>
+		<p>Vi føler at vi har planlagt designet vårt veldig detaljert. Dette gjorde det lett for oss å jobbe hver for oss uten å måtte lure på hvordan ting skal være. Likevel er det alltid ett eller annet som dukker opp. For eksempel at man vil bruke en annen, kanskje mer praktisk løsning. Eller andre ting man ikke har tenkt på i det hele tatt. Nedenfor kan du lese om forandringene vi gjorde i nettsiden vår</p>
+	</section>
+	<section>
+		<h4>Fonter</h4>
+		<p>Istedet for å bruke fontene som planlagt:<br>
+		Navigasjonsbar: Liberation Sans Narrow Bold Condensed<br>
+		Hovedinnhold: Serif, standard "p"<br>
+		Hovedoverskrifter: Sans , standard "h1"<br>
+		Underoverskrifter: Sans, standard "h3"</p>
 
+		<p>Valgte vi heller å forandre det til å bruke importerte fonter fra google. Det blir da seende slik ut:<br>
+		Navigasjonsbar: 'Montserrat',sans-serif<br>
+		Hovedinnhold: 'Arapey', serif<br>
+		Hovedoverskrifter: 'Montserrat',sans-serif;<br>
+		Underoverskrifter: 'Montserrat',sans-serif;</p>
+
+		<p>For å importere fonter har vi lagt in css selector i stylesheet.css: <br>
+		CSS selector {<br>
+		/*Imported font*/<br>
+		font-family: 'Montserrat', sans-serif;<br>
+		}<br><br>
+		I tillegg måtte vi legge inn linker i headeren vår:<br>
+		link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'<br>
+		link href='https://fonts.googleapis.com/css?family=Arapey' rel='stylesheet' type='text/css'<br><br>
+		Grunnen til at vi valgte å forandre fontene var fordi vi fant ut at det var lurt å bruke importerte fonter. Ettersom sjansen for at alle serverene som kan levere fontene går ned er veldig liten. Dette gjør siden vår mer pålitelig. I tillegg hadde vi lyst til å kunne velge litt mer spesielle fonts enn standar-fontene.
+		</p>
+	</section>
+	<section>
+		<h4>Bonus.html</h4>
+		<p>Da vi hadde laget både bonus.html og top_dawg_x.html: Innså vi at disse to sidene var veldig like. Nesten identiske. Dette syntes vi var litt uheldig. Derfor har vi valgt å forandre designet i bonus.html. Vi fjernet navigeringen. Det er fordi vi fant ut at det bare skal være en video der. I tillegg forandret vi litt på fargene for å gjøre siden litt mer spenstig. Til slutt så byttet vi ut top dawgs logoen øverst med et eget bilde for denne siden.</p>
+	</section>
+	<section>
+		<h4>Kontakt.html</h4>
+		<p>Opprinnelig hadde vi tenkt å ha kontaktinformasjonen i kontakt.html ved siden av hverandre. Desverre viste det seg at det ble litt dårlig plass om vi gjorde det sånn. Derfor valge vi å sette personene under hverandre.</p>
+	</section>
+	<section>
+		<h4>Videoer i top_dawg_x.html</h4>
+		<p>Først var vi usikre på om vi skulle få videoene i filer, eller som linker. Det viste seg at vi skulle få youtube linker. Derfor er har vi ikke videofilene i en mappe, men istedet hentet fra youtube.</p>
+	</section>
+	<section>
+		<h4>Script</h4>
+		<p>I mappestrukturen vår hadde vi planlagt å ha en script fil for hver javascript-applikasjon på siden vår. Dette syntes vi at ble litt upraktisk, så vi valgte å ha alle funksjonene i samme fil: script.js</p>
+	</section>
+	<section>
+		<h4>Top_dawgs mappe</h4>
+		<p>Vi hadde egentlig tenkt til å ha alle html filene i samme mappe. Dette ble litt uoversiktlig og upraktisk med alle top_dawg undersidene sammen med de andre filene. Vi valgte derfor å lage en egen mappe for disse html-filene, kalt "top_dawgs"</p>
+	</section>
+	<section>
+		<h4>Egen mappe til knapper</h4>
+		<p>Da vi lagde designet først, tenkte vi ikke over at vi kanskje burde skille mellom vanlige bilder, og bilder som skal brukes til knapper. Vi endret det slik at knapper fikk en egen mappe "knapper", slik at det skulle bli mer oversiktlig.</p>
+	</section>
+	<section>
+		<h4>Footer</h4>
+		<p>Vi endret skriftstørresle på footeren fra 10px til 12px. Den var veldig liten og vanskelig å lese.</p>
+	</section>
+	<section>
+		<h4>Oppdatert mappestuktur</h4>
+				<ul>
+			<li>index.html</li>
+			<li>top_dawgs/</li>
+			<ul>
+				<li>top_dawg_0.html</li>
+				<li>...</li>
+				<li>top_dawg_5.html</li>
+			</ul>
+			<li>fotogalleri.html</li>
+			<li>motivasjon.html</li>
+			<li>kontakt.html</li>
+			<li>bonus.html</li>
+			<li>filmer/</li>
+			<ul>
+				<li>bonus.mp4</li>
+			</ul>
+			<li>bilder/</li>
+			<ul>
+				<li>logo.png</li>
+				<li>bonuslogo.png</li>
+				<li>havard.png</li>
+				<li>jakob.png</li>
+				<li>stian.png</li>
+				<li>stianheh.jpg</li>
+				<li>scrn_0.png (heter skjermdump_x.png i P2)</li>
+				<li>...</li>
+				<li>scrn_16.png</li>
+			</ul>
+			<li>knapper/</li>
+			<ul>
+			<li>bonusknapp.png</li>
+			<li>fram.png</li>
+			<li>stian_hode.png</li>
+			<li>tilbake</li>
+			</ul>
+			<li>scripts/</li>
+			<ul>
+				<li>script.js</li>
+			</ul>
+			<li>stylesheet.css</li>
+		</ul>
+	</section>
+	</div>
 </body>
 </html>
