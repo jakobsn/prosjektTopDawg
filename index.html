@@ -10,15 +10,16 @@
 	<script type="text/javascript" src="script/script.js"></script>
 </head>
 
-<body>
-	<div id="alt">
-	<img src="bilder/logo.png" id="logo" alt="logo"/>
-	<div id="morroknappdiv" onclick="morro()"><br>
-		<img src="knapper/stian_hode.png" alt="hode">
-	</div>
-	<div id="bonusknappdiv" onclick="bonus()"><br>
-		<img src="knapper/bonusknapp.png" alt="bonus">
-	</div>
+<body id="alt">
+	<header>
+		<img src="../bilder/logo.png" id="logo" alt="logo"/>
+		<div id="morroknappdiv" onclick="morro()"><br>
+		<img src="../knapper/stian_hode.png" alt="hode">
+		</div>
+		<div id="bonusknappdiv" onclick="bonus()"><br>
+		<img src="../knapper/bonusknapp.png" alt="bonus">
+		</div>
+	</header>
 
 	<nav id="dropdownnav"><br>
 		<div id="hjem" class="knapper" onclick="linkDiv('index.html')">Hjem</div><br>
@@ -36,7 +37,7 @@
 		<div id="kontakt" class="knapper" onclick="linkDiv('kontakt.html')">Kontakt</div>
 	</nav>
 
- 		<div id="hovedinnhold">
+ 		<main id="hovedinnhold">
 			<h1>Top Dawgs</h1>
 			
 			<p>Velkommen til Top Dawgs hjemmeside! "Jeg har lyst på en webside som viser frem det fremste av menneskelige prestasjoner..." -Dette er et lite utdrag fra <a href="motivation.html">motivasjonsteksten</a> til Stian. Der han forklarer hvorfor han ønsket å få laget denne nettsiden. </p>
@@ -50,14 +51,12 @@
 			<img id="foto" src="bilder/scrn_10.png">
 
 			<p>Vi håper du lar deg underholde av siden vår og videoene våre. I tillegg til innholdet som er beskrevet på denne siden, så har vi en og annen hemmelig knapp. Klarer du å finne de?</p>
-		</div>
+		</main>
 
 		<footer>
 			Webdesignere:
 			<br>Håvard Kittelsen og Jakob Notland
 		</footer>
-
-	</div>
 </body>
 
 </html>

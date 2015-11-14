@@ -11,15 +11,16 @@
 
 </head>
 
-<body>
-	<div id="alt">
-	<img src="../bilder/logo.png" id="logo" alt="logo"/>
-	<div id="morroknappdiv" onclick="morro()"><br>
-	<img src="../knapper/stian_hode.png" alt="hode">
-	</div>
-	<div id="bonusknappdiv" onclick="bonus()"><br>
+<body id="alt">
+	<header>
+		<img src="../bilder/logo.png" id="logo" alt="logo"/>
+		<div id="morroknappdiv" onclick="morro()"><br>
+		<img src="../knapper/stian_hode.png" alt="hode">
+		</div>
+		<div id="bonusknappdiv" onclick="bonus()"><br>
 		<img src="../knapper/bonusknapp.png" alt="bonus">
-	</div>
+		</div>
+	</header>
 
 	<nav id="dropdownnav"><br>
 		<div id="hjem" class="knapper" onclick="linkDiv('../index.html')">Hjem</div><br>
@@ -37,7 +38,7 @@
 		<div id="kontakt" class="knapper" onclick="linkDiv('../kontakt.html')">Kontakt</div>
 	</nav>
 
- 		<div id="hovedinnhold">
+ 		<main id="hovedinnhold">
 			<h1>Stephen Dunkel</h1>
 			<div id="mediaplayer">
 				<iframe width="535" height="360"
@@ -53,14 +54,12 @@
 				<div id="next">Neste Video</div>
 			</a>
 
-		</div>
+		</main>
 
 		<footer>
 			Webdesignere:
 			<br>Håvard Kittelsen og Jakob Notland
 		</footer>
-
-	</div>
 </body>
 
 </html>

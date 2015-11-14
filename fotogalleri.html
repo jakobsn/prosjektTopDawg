@@ -10,16 +10,16 @@
 	<script type="text/javascript" src="script/script.js"></script>
 </head>
 
-<body>
-	<div id="alt">
-	<img src="bilder/logo.png" id="logo" alt="logo"/>
-	<div id="morroknappdiv" onclick="morro()"><br>
-		<img src="knapper/stian_hode.png" alt="hode">
-	</div>
-	<div id="bonusknappdiv" onclick="bonus()"><br>
-		<img src="knapper/bonusknapp.png" alt="bonus">
-	</div>
-
+<body id="alt">
+	<header>
+		<img src="../bilder/logo.png" id="logo" alt="logo"/>
+		<div id="morroknappdiv" onclick="morro()"><br>
+		<img src="../knapper/stian_hode.png" alt="hode">
+		</div>
+		<div id="bonusknappdiv" onclick="bonus()"><br>
+		<img src="../knapper/bonusknapp.png" alt="bonus">
+		</div>
+	</header>
 	<nav id="dropdownnav"><br>
 		<div id="hjem" class="knapper" onclick="linkDiv('index.html')">Hjem</div><br>
    		<div id="dropdown" class="knapper" onclick="showMenu()">Top Dawgs</div>
@@ -36,7 +36,7 @@
 		<div id="kontakt" class="knapper" onclick="linkDiv('kontakt.html')">Kontakt</div>
 	</nav>
 
- 		<div id="hovedinnhold">
+ 		<main id="hovedinnhold">
 			<h1>Fotogalleri</h1>
 			<img src="bilder/scrn_0.png" id="foto">
 			<hr>
@@ -64,13 +64,11 @@
 				<img class="bilder"src="bilder/scrn_15.png" onclick="change('15')">
 				<img class="bilder"src="bilder/scrn_16.png" onclick="change('16')">
 			</div>
-		</div>
+		</main>
 		<footer>
 			Webdesignere:
 			<br>Håvard Kittelsen og Jakob Notland
 		</footer>
-
-	</div>
 </body>
 
 </html>
