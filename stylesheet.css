@@ -41,6 +41,19 @@ p{
 	border-width: 30px;
 	border-bottom-width: 100px;
 }
+#hoved{
+	/*Defines the style for the main content (the gray border and everything inside)*/
+	margin: auto;
+	width: 600px;
+	background-color: #F3F3F3;
+	padding-bottom: 35px;
+	padding-top: 25px;
+	border-style: solid;
+	border-color: #8000FF;
+	border-width: 30px;
+	border-top-width: 50px;
+	border-bottom-width: 100px;
+}
 footer{
 	font-size: 12px;
 	margin-top: -50px;
